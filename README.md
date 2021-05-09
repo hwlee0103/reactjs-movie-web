@@ -2,3 +2,6 @@
 
 React JS Fundamentals Course (2021)
 -ver 2019 updated
+
+2. Dynamic Component Generatio
+   : use data with dynamic array
