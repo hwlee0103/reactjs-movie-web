@@ -5,8 +5,8 @@ function Food({ name, picture }) {
   //console.log(props);
   return (
     <div>
-      <h2>I like {fav}</h2>
-      <img src={picture} />
+      <h2>I like {name}</h2>
+      <img src={picture} alt="foodPicture" />
     </div>
   );
 }
@@ -14,12 +14,12 @@ function Food({ name, picture }) {
 const foodILike = [
   {
     name: "Samgyeopsal",
-    image: "https://t1.daumcdn.net/cfile/tistory/9942B3395A3501C304",
+    image: "http://ai.esmplus.com/oksamda/pig/1000/p_5kup_rp2_1000.jpg",
   },
   {
     name: "Bibimbap",
     image:
-      "https://mblogthumb-phinf.pstatic.net/MjAxNzA0MjRfMjI3/MDAxNDkzMDIzMjc4MjU2.L-3Vv9r0XjeRGGncaB0p0II6mw9-NoBfu2k4PMCrTdgg.jP8wA64wrWrXrH3ZTP4UBCPR6ZWppqqnhXkS8FPpYMQg.JPEG.estelle926/151435979-56a57a083df78cf772888a61.jpg?type=w800",
+      "https://t1.daumcdn.net/liveboard/SNUH/fed8c48df21b43ada043b4cdda7dfe57.JPG",
   },
   {
     name: "Ramen",
