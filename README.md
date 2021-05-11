@@ -6,3 +6,7 @@ React JS Fundamentals Course (2021)
 2. Dynamic Component Generatio
    : use data with dynamic array
    ; using javascript map function
+   ; to render food
+
+3. use id to give unique prop
+   : to each item
