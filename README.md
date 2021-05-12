@@ -10,3 +10,5 @@ React JS Fundamentals Course (2021)
 
 3. use id to give unique prop
    : to each item
+
+4. prop-types
