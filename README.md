@@ -12,3 +12,4 @@ React JS Fundamentals Course (2021)
    : to each item
 
 4. prop-types
+   : to check components'; validation

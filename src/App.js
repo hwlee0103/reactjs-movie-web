@@ -6,7 +6,6 @@ const foodILike = [
     id: 1,
     name: "Samgyeopsal",
     image: "http://ai.esmplus.com/oksamda/pig/1000/p_5kup_rp2_1000.jpg",
-    rating: 5,
   },
   {
     id: 2,
@@ -65,7 +64,11 @@ function Food({ name, picture, rating }) {
   );
 }
 
-Food.propTypes = {};
+Food.propTypes = {
+  name: PropTypes.string.isRequired,
+  picture: PropTypes.string.isRequired,
+  rating: PropTypes.number,
+};
 
 function App() {
   return (
