@@ -13,3 +13,5 @@ React JS Fundamentals Course (2021)
 
 4. prop-types
    : to check components'; validation
+   : 변수 값의 유형 등에 대한 validation이 가능.
+   ; string.isRequired이라면 string유형으로 필수값이라는 뜻.
