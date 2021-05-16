@@ -1,7 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { render } from "@testing-library/react";
 //import Potato from "./Potato";
-const foodILike = [
+
+/*const foodILike = [
   {
     id: 1,
     name: "Samgyeopsal",
@@ -36,7 +38,7 @@ const foodILike = [
     rating: 6.0,
   },
 ];
-
+*/
 /*
 function renderFood(dish) {
   console.log(dish);
@@ -52,7 +54,7 @@ function App() {
   );
 }
 */
-
+/*
 function Food({ name, picture, rating }) {
   //console.log(props);
   return (
@@ -70,6 +72,7 @@ Food.propTypes = {
   rating: PropTypes.number,
 };
 
+//function component
 function App() {
   return (
     <div>
@@ -83,6 +86,29 @@ function App() {
       ))}
     </div>
   );
+}
+*/
+
+//class component
+class App extends React.Component {
+  state = {
+    count: 0,
+  };
+  add = () => {
+    console.log("add");
+  };
+  minus = () => {
+    console.log("minus");
+  };
+  render() {
+    return (
+      <div>
+        <h1>I'm a class component. The number is: {this.state.count}</h1>
+        <button onClick={this.add}>Add</button>
+        <button onClick={this.minus}>Minus</button>
+      </div>
+    );
+  }
 }
 
 export default App;

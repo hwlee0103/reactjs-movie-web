@@ -18,3 +18,13 @@ React JS Fundamentals Course (2021)
    : to check components'; validation
    : 변수 값의 유형 등에 대한 validation이 가능.
    ; string.isRequired이라면 string유형으로 필수값이라는 뜻.
+
+5. to use state
+   : delete food compo; hard coded data.
+   : we need dynamic data.
+
+6. React class Component
+   : render method instead of return
+
+7. onClick
+   : useful property from react
