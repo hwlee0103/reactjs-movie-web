@@ -28,3 +28,7 @@ React JS Fundamentals Course (2021)
 
 7. onClick
    : useful property from react
+
+8. setState
+   : cannot modify state directly.
+   ; use setState to modify state value and refresh page.
