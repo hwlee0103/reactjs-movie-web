@@ -91,6 +91,10 @@ function App() {
 
 //class component
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    console.log("hello");
+  }
   state = {
     count: 0,
   };
@@ -105,7 +109,18 @@ class App extends React.Component {
     //console.log("minus");
     this.setState((current) => ({ count: current.count - 1 }));
   };
+
+  componentDidMount() {
+    console.log("component rendered");
+  }
+  componentDidUpdate() {
+    console.log("I just updated");
+  }
+  componentWillUnmount() {
+    console.log("Goodsbye, cruel world");
+  }
   render() {
+    console.log("I'm rendering");
     return (
       <div>
         <h1>I'm a class component. The number is: {this.state.count}</h1>

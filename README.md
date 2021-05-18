@@ -32,3 +32,7 @@ React JS Fundamentals Course (2021)
 8. setState
    : cannot modify state directly.
    ; use setState to modify state value and refresh page.
+
+9. life cycle method
+   : mounting, updating, unmounting
+   ; see which method is called first: studying method's order
