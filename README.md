@@ -36,3 +36,6 @@ React JS Fundamentals Course (2021)
 9. life cycle method
    : mounting, updating, unmounting
    ; see which method is called first: studying method's order
+10. setTimeout
+    : use setTimeout to change message on screen
+    ; with js ternary operator

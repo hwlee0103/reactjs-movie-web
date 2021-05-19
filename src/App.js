@@ -91,14 +91,16 @@ function App() {
 
 //class component
 class App extends React.Component {
-  constructor(props) {
+  /*constructor(props) {
     super(props);
     console.log("hello");
-  }
+  }*/
   state = {
-    count: 0,
+    //count: 0,
+    isLoading: true,
+    movies: [],
   };
-  add = () => {
+  /*add = () => {
     //console.log("add");
     //this.setState({ count: this.state.count + 1 });
     this.setState((current) => ({
@@ -118,16 +120,23 @@ class App extends React.Component {
   }
   componentWillUnmount() {
     console.log("Goodsbye, cruel world");
+  }*/
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ isLoading: false, book: true });
+    }, 6000);
   }
   render() {
-    console.log("I'm rendering");
-    return (
-      <div>
-        <h1>I'm a class component. The number is: {this.state.count}</h1>
-        <button onClick={this.add}>Add</button>
-        <button onClick={this.minus}>Minus</button>
-      </div>
-    );
+    const { isLoading } = this.state;
+    return <div>{isLoading ? "Loading..." : "We are ready"}</div>;
+    //console.log("I'm rendering");
+    //return (
+    // <div>
+    //    <h1>I'm a class component. The number is: {this.state.count}</h1>
+    //    <button onClick={this.add}>Add</button>
+    //    <button onClick={this.minus}>Minus</button>
+    //  </div>
+    //);
   }
 }
 
