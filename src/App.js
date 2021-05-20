@@ -1,6 +1,7 @@
 import React from "react";
-import PropTypes from "prop-types";
-import { render } from "@testing-library/react";
+import axios from "axios";
+//import PropTypes from "prop-types";
+//import { render } from "@testing-library/react";
 //import Potato from "./Potato";
 
 /*const foodILike = [
@@ -121,10 +122,15 @@ class App extends React.Component {
   componentWillUnmount() {
     console.log("Goodsbye, cruel world");
   }*/
+
+  getMovies = async () => {
+    const movies = await axios.get("https://yts-proxy.now.sh/list_movies.json");
+  };
   componentDidMount() {
-    setTimeout(() => {
+    this.getMovies();
+    /*setTimeout(() => {
       this.setState({ isLoading: false, book: true });
-    }, 6000);
+    }, 6000);*/
   }
   render() {
     const { isLoading } = this.state;

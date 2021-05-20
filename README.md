@@ -36,6 +36,15 @@ React JS Fundamentals Course (2021)
 9. life cycle method
    : mounting, updating, unmounting
    ; see which method is called first: studying method's order
+
 10. setTimeout
     : use setTimeout to change message on screen
     ; with js ternary operator
+
+11. use YTS API
+    : to fetch data
+    ; using YTS API
+
+12. axios
+    : to get data
+    ; with async function and await keyword to make program to wait for axios
