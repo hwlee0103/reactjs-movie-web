@@ -48,3 +48,7 @@ React JS Fundamentals Course (2021)
 12. axios
     : to get data
     ; with async function and await keyword to make program to wait for axios
+
+13. getting movie data
+    : setting data on state
+    ; Movie.js - set propTypes
