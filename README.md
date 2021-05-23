@@ -56,3 +56,6 @@ React JS Fundamentals Course (2021)
 14. styling movie components
     : using css file
     ; import css file and write css code on css files.
+
+15. getting 'genre' information
+    ; use className in jsx tags
