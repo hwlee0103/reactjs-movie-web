@@ -52,3 +52,7 @@ React JS Fundamentals Course (2021)
 13. getting movie data
     : setting data on state
     ; Movie.js - set propTypes
+
+14. styling movie components
+    : using css file
+    ; import css file and write css code on css files.
