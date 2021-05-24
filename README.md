@@ -59,3 +59,6 @@ React JS Fundamentals Course (2021)
 
 15. getting 'genre' information
     ; use className in jsx tags
+
+16. add styles
+    : in css files
