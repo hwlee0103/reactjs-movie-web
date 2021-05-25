@@ -62,3 +62,8 @@ React JS Fundamentals Course (2021)
 
 16. add styles
     : in css files
+
+17. cutting summary text
+    : using summary.slice; string is array
+
+18. move part of App.css style code to Movie.css
