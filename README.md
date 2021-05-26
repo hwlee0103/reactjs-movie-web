@@ -67,3 +67,6 @@ React JS Fundamentals Course (2021)
     : using summary.slice; string is array
 
 18. move part of App.css style code to Movie.css
+
+19. upload to cloud
+    : make gh-pages
