@@ -62,11 +62,16 @@ React JS Fundamentals Course (2021)
 
 16. add styles
     : in css files
+    ; 영화별 포스터, 제목, 연도, 줄거리를 일정한 크기의 칸으로!
+    -> 추후 내 스타일로 바꿔보기!
 
 17. cutting summary text
     : using summary.slice; string is array
 
 18. move part of App.css style code to Movie.css
+    : css 작성 및 모듈화 하기
 
 19. upload to cloud
     : make gh-pages
+    ; 코코아 클론 publish와 또 다른 방식.
+    ; terminal에서 deploy
