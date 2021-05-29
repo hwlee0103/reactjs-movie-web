@@ -75,3 +75,9 @@ React JS Fundamentals Course (2021)
     : make gh-pages
     ; 코코아 클론 publish와 또 다른 방식.
     ; terminal에서 deploy
+
+20. add react-router-dom
+    : install with npm
+
+21. make components and routes directory
+    : to order files
