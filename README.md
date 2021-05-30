@@ -81,3 +81,9 @@ React JS Fundamentals Course (2021)
 
 21. make components and routes directory
     : to order files
+
+22. import HashRouter and Route
+    : to load component for each pages
+    ; set Routes for paths
+    ; use exact={true} props to render exactly on each path.
+    ; 중복 url로 여겨져 중복 렌더링되는 것을 방지.
