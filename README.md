@@ -87,3 +87,7 @@ React JS Fundamentals Course (2021)
     ; set Routes for paths
     ; use exact={true} props to render exactly on each path.
     ; 중복 url로 여겨져 중복 렌더링되는 것을 방지.
+
+23. import Link from react-router-dom
+    : to make react page interactive
+    ; not using html a tag to kill react and refresh page
