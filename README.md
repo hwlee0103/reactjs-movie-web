@@ -91,3 +91,6 @@ React JS Fundamentals Course (2021)
 23. import Link from react-router-dom
     : to make react page interactive
     ; not using html a tag to kill react and refresh page
+
+24. add movie-detail page
+    : send all movie info as props
