@@ -94,3 +94,8 @@ React JS Fundamentals Course (2021)
 
 24. add movie-detail page
     : send all movie info as props
+
+25. using history
+    : to redirect to home page when user tried to move to 'movie-detail' manually (by typing in url)
+
+26. set movie-detail page
